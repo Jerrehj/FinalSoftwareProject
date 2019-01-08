@@ -15,19 +15,13 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-
-import org.w3c.dom.Text;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 
 
 public class Results extends AppCompatActivity {
@@ -70,7 +64,7 @@ public class Results extends AppCompatActivity {
             yax = findViewById(R.id.readyax);
             zbt = findViewById(R.id.readzbt);
             cbt = findViewById(R.id.readcbt);
-            timestamp = findViewById(R.id.readtimestamp);
+            timestamp = findViewById(R.id.readzbt);
         }
 
         private void getDatabase(){

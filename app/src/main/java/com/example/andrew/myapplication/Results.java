@@ -64,7 +64,7 @@ public class Results extends AppCompatActivity {
             yax = findViewById(R.id.readyax);
             zbt = findViewById(R.id.readzbt);
             cbt = findViewById(R.id.readcbt);
-            timestamp = findViewById(R.id.readzbt);
+            timestamp = findViewById(R.id.readtimestamp);
         }
 
         private void getDatabase(){
